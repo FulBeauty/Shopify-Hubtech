@@ -1,0 +1,98 @@
+
+@font-face {
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("//dj08fe-43.myshopify.com/cdn/fonts/roboto_condensed/robotocondensed_n4.01812de96ca5a5e9d19bef3ca9cc80dd1bf6c8b8.woff2?h1=ZGowOGZlLTQzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=2d9b52b8de9d573014505c8a2a344aca4e70943d4e1b5c730cd0d6f1ef08e0e9") format("woff2"),
+       url("//dj08fe-43.myshopify.com/cdn/fonts/roboto_condensed/robotocondensed_n4.3930e6ddba458dc3cb725a82a2668eac3c63c104.woff?h1=ZGowOGZlLTQzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=3297607f7e5f91e19d3698b38982b530599fbff84721829d7d5b1a5904bd00ed") format("woff");
+}
+
+
+
+  @font-face {
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("//dj08fe-43.myshopify.com/cdn/fonts/roboto_condensed/robotocondensed_n4.01812de96ca5a5e9d19bef3ca9cc80dd1bf6c8b8.woff2?h1=ZGowOGZlLTQzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=2d9b52b8de9d573014505c8a2a344aca4e70943d4e1b5c730cd0d6f1ef08e0e9") format("woff2"),
+       url("//dj08fe-43.myshopify.com/cdn/fonts/roboto_condensed/robotocondensed_n4.3930e6ddba458dc3cb725a82a2668eac3c63c104.woff?h1=ZGowOGZlLTQzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=3297607f7e5f91e19d3698b38982b530599fbff84721829d7d5b1a5904bd00ed") format("woff");
+}
+
+  @font-face {
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("//dj08fe-43.myshopify.com/cdn/fonts/roboto_condensed/robotocondensed_n5.753e8e75cdb3aced074986880588a95576768e7a.woff2?h1=ZGowOGZlLTQzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=9fc24d554138f0a5c8839e50a812be5b11404c5aaeedf04044b67eefe2a641ff") format("woff2"),
+       url("//dj08fe-43.myshopify.com/cdn/fonts/roboto_condensed/robotocondensed_n5.d077911a9ecebd041d38bbe886c8dc56d626fe74.woff?h1=ZGowOGZlLTQzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=76f7a8acb0c2097ba99fb955567875187d916ff8e148fdad75767f6287e4ddd6") format("woff");
+}
+
+  @font-face {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("//dj08fe-43.myshopify.com/cdn/fonts/roboto_condensed/robotocondensed_n7.0c73a613503672be244d2f29ab6ddd3fc3cc69ae.woff2?h1=ZGowOGZlLTQzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=564ff4b9bbdb5b0457ca743c7f354258a63a7f1e8f6aaea734ee3b02aa0ca6d6") format("woff2"),
+       url("//dj08fe-43.myshopify.com/cdn/fonts/roboto_condensed/robotocondensed_n7.ef6ece86ba55f49c27c4904a493c283a40f3a66e.woff?h1=ZGowOGZlLTQzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=232b976dd498f24a7bf88208111d37e06fcd6f807e43b4402f68a8aea26af8cd") format("woff");
+}
+
+  @font-face {
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("//dj08fe-43.myshopify.com/cdn/fonts/roboto_condensed/robotocondensed_i4.05c7f163ad2c00a3c4257606d1227691aff9070b.woff2?h1=ZGowOGZlLTQzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=92e4747e6b87af857c850599edd9f4ea449a83ab171e91c320c4f371e41e01fa") format("woff2"),
+       url("//dj08fe-43.myshopify.com/cdn/fonts/roboto_condensed/robotocondensed_i4.04d9d87e0a45b49fc67a5b9eb5059e1540f5cda3.woff?h1=ZGowOGZlLTQzLmFjY291bnQubXlzaG9waWZ5LmNvbQ&hmac=019aaada45fa43a45a68f121ec5dc7a6c837f258aa21abd8ad886b6a67f822d7") format("woff");
+}
+
+
+ 
+:root {--bs-primary: #1d1d1f;
+  --bs-primary-rgb: 29, 29, 31;
+  --bs-secondary: #6e6e73;
+  --bs-secondary-rgb: 110, 110, 115;
+  --bs-body-bg: #ffffff;
+  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-body-color: #0071e3;
+  --bs-body-color-rgb: 0, 113, 227;
+
+  --bs-container-max-width: 1350px;
+  --bs-border-radius: 0.3rem;
+
+  --bs-body-font-family: "Roboto Condensed", sans-serif;
+  --bs-body-font-weight: 400;
+  --bs-body-font-size: rem;
+  --bs-headings-font-family: "Roboto Condensed", sans-serif;
+  --bs-headings-font-weight: 400;
+  --bs-headings-text-transform: uppercase;
+
+  --bs-dialog-backdrop-color-rgb: 33, 37, 41;
+  --bs-dialog-backdrop-opacity: 50%;
+  --bs-dialog-backdrop-blur: 5px;
+  --bs-dialog-backdrop-blur: 5px;
+  --bs-dialog-header-bg-color-rgb: var(--bs-secondary-rgb);
+  --bs-dialog-header-bg-opacity: 5%;
+  --bs-dialog-header-text-color: body-color;
+  --bs-dialog-header-border-width: 1px;
+  --bs-dialog-header-border-color-rgb: var(--bs-secondary-rgb);
+  --bs-dialog-header-border-opacity: 10%;
+  --bs-dialog-header-title-font-size: 1.3em;
+
+  --bs-box-shadow-sm: 0 0.125rem 0.25rem rgba(var(--bs-body-color-rgb), 0.075);
+  --bs-box-shadow-md: 0 0.25rem 0.5rem rgba(var(--bs-body-color-rgb), 0.125);
+  --bs-box-shadow-lg: 0 .5rem 1rem rgba(var(--bs-body-color-rgb), 0.175);
+  --bs-focus-box-shadow: 0 0 0 .25rem rgba(var(--bs-primary-rgb), .125);
+  --bs-box-shadow: var(--bs-box-shadow-md);
+}.btn {
+  --bs-btn-font-size: 1rem;
+  --bs-btn-text-transform: none;
+  --bs-btn-font-family-new: var(--bs-body-font-family);
+  --bs-btn-font-weight: 500;
+  --bs-btn-letter-spacing: 0.05rem;
+  --bs-btn-bg-gradient: var(--bs-gradient);
+  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-y: 0.3rem;
+}.form-check-input:checked[type=radio] {
+  --bs-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23ffffff'/%3e%3c/svg%3e");
+}
